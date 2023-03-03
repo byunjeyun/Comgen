@@ -16,7 +16,7 @@
 <%@ include file="include/header.jsp" %>
 
 <center>
-<h2>유지보수 내역 </h2>
+<h2>사업장 관리 </h2>
 	<hr>
 	
 	<table width="100%" color="#aaa" cellpadding="0" cellspacing="0" border="1" style="border-color:#eee"  >

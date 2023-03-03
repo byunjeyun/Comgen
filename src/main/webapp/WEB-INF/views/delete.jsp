@@ -16,7 +16,7 @@
 <%@ include file="include/header.jsp" %>
 
 <center>
-<h2>유지보수 내역 </h2>
+<h2>유지보수 내역 수정/삭제</h2>
 	<hr>
 	
 		

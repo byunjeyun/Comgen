@@ -21,7 +21,7 @@
 	<%@ include file="include/header.jsp" %>
 
 	<center>	
-	
+	<h2>유지보수 내역 추가 </h2>
 	<form action="inputOk" method="get" name="reg_frm">
 	<table width="100%" color="#999" cellpadding="0" cellspacing="0" border="1" style="border-color:#eee"  >
 	<tr bgcolor="#555"  align="center" height="30" style="color:#ccc">

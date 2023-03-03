@@ -111,9 +111,7 @@
 <table width="75%" border="0" cellspacing="0" cellpadding="10" >
 														   
 	<tr>
-        <input  type="button" value="사업장관리" onclick="location.href='flist'">
-        <input  type="button" value="담당자관리" onclick="location.href='mlist'">&nbsp;&nbsp;
-		<input  type="button" value="추가" onclick="location.href='input'">
+        <input  type="button" value="추가" onclick="location.href='input'">&nbsp;&nbsp;
 		<input  type="button" value="수정삭제" onclick="location.href='delete'">
 
 	</tr>				

@@ -12,22 +12,16 @@
 		<tr height="50" bgcolor="#ddd" >
 			<td width="20%" class="" align="center"><a href='index'><img src="${pageContext.request.contextPath }/resources/img/ComGenLogo.png"</a></td>
 						
-			<td colspan="6" width="60%" class="" align="center">
-			<h2>컴젠 유지보수내역</h2>
-			</td>
-			
-			<td width="10%" class="" align="center">
-			</td>	  
-				  
-			<td width="10%" class="" align="center">
-			</td>
-				</div>	
-			
-			<td width="10%" class="" align="center">		
+			<td colspan="5" width="50%" class="" align="center">
 
 			</td>
-	
-				
+
+			<td width="10%" class="" align="center"><a href="index">유지보수내역</a></td>
+
+			<td width="10%" class="" align="center"><a href="flist">사업장관리</a></td>
+				  
+			<td width="10%" class="" align="center"><a href="mlist">담당자관리</a></td>
+
 			<td width="10%" class="" align="center">
 
 			</td>
