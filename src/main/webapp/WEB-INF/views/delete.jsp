@@ -18,7 +18,6 @@
 <center>
 <h2>유지보수 내역 수정/삭제</h2>
 	<hr>
-	
 		
 	<table width="100%" color="#999" cellpadding="0" cellspacing="0" border="1" style="border-color:#eee"  >
 		<tr bgcolor="#555"  align="center" height="30" style="color:#ccc">
@@ -29,6 +28,7 @@
 			<td>요청일</td>
 			<td>요청내역</td>
 			<td>담당자</td>
+
 			<td>처리결과</td>
 			<td>처리완료일</td>
 			<td>note</td>
@@ -59,6 +59,7 @@
                         <option value="${mdto.managernm}" <c:if test="${mdto.managernm == mdto.managernm}">selected</c:if>>${mdto.managernm}</option>
                     </c:forEach>
                 </select></td>
+                <!--<td align="center"><input type="text" name="foredate" value="${rdto.enddate}"></td>--!>
 				<td align="center"><textarea id="textarea01" rows="5" cols="24" name="resultstat" >${rdto.resultstat}</textarea></td>
 				<td align="center"><input type="text" name="enddate" value="${rdto.enddate}"></td>
 				<input type="hidden" name="processingtime" value="${rdto.processingtime}" readonly></td>

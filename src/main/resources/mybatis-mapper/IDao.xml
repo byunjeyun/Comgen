@@ -29,11 +29,11 @@
 	<select id="F_listDao" resultType="com.comgen.dto.RequestDto">
 		SELECT distinct factnm, managernm FROM request_list
 	</select>
-	
-	
+
+
 	<insert id="r_inputDao" >
-	    INSERT INTO request_list(requestno, factnm, requestgr, requesternm, requestdate, requestcomment, managernm, resultstat, enddate, processingtime, note) 
-	    VALUES(request_seq.nextval, #{param1}, #{param2}, #{param3}, to_date(#{param4},'yyyy-mm-dd'), #{param5}, #{param6}, #{param7}, to_date(#{param8},'yyyy-mm-dd'),#{param9}, #{param10})
+	    INSERT INTO request_list(requestno, factnm, requestgr, requesternm, requestdate, requestcomment, managernm, resultstat, enddate, processingtime, note)
+		VALUES(to_char(#{param4})||'-'||(SELECT factcd FROM fact_mst WHERE factnm = #{param1})||'-'|| (SELECT managercd FROM manager_mst WHERE managernm = #{param6}), #{param1}, #{param2}, #{param3}, to_date(#{param4},'yyyy-mm-dd'), #{param5}, #{param6}, #{param7}, to_date(#{param8},'yyyy-mm-dd'),#{param9}, #{param10})
 	</insert>
 	
 	<update id="updateDao">

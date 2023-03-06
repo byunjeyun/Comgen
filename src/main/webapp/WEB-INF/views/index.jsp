@@ -73,19 +73,19 @@
 		   </td>
 		</tr>	
 	</table>	
-	<table width="100%" color="#aaa" cellpadding="0" cellspacing="0" border="1" style="border-color:#eee"  >
-		<tr bgcolor="#333"  align="center" height="30" style="color:#ccc">
-			<td>No</td>
-			<td>사업장</td>
-			<td>업무구분</td>
-			<td>요청자</td>
-			<td>요청일</td>
-			<td>요청내역</td>
-			<td>담당자</td>
-			<td>처리 결과</td>
-			<td>처리완료일</td>
-			<td>처리시간</td>
-			<td>비고</td>
+	<table style-"overflow-x: auto;" color="#aaa" cellpadding="0" cellspacing="0" border="1" style="border-color:#eee"  >
+		<tr bgcolor="#333"  align="center" height="50" style="color:#ccc">
+			<td width='50px'>No</td>
+			<td width='100px'>사업장</td>
+			<td width='200px'>업무구분</td>
+			<td width='100px'>요청자</td>
+			<td width='100px'>요청일</td>
+			<td width='600px'>요청내역</td>
+			<td width='100px'>담당자</td>
+			<td width='600px'>처리결과</td>
+			<td width='100px'>처리완료일</td>
+			<td width='100px'>처리시간</td>
+			<td width='200px'>비고</td>
 			
 		</tr>
 		<c:forEach var="rdto" items="${request_list}" >
